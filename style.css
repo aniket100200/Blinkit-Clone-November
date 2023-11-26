@@ -1,0 +1,300 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#vertical_line{
+    height:70px;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+#nav_delivery>h5{
+    margin:0px;
+    font-weight: 800;  
+}
+
+#nav_delivery>p{
+    margin: 0px;
+}
+
+@media screen and (min-width:769px) 
+{
+    #login-icon
+    {
+        display: none;
+    }
+}
+
+#search_div
+{
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: 30vw;
+
+}
+
+#search_div>input
+{
+    /* Input as invisible */
+    border: none;
+    background-color: transparent;
+    width: 94%;
+    height: 35px;
+}
+
+#categories_section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+}
+
+.card_section
+{
+       margin: auto;
+       width: 93vw;
+}
+
+.scrolable_div
+{
+    padding-left: 10px;
+    width: 95vw;
+    white-space: nowrap;
+    overflow: hidden; 
+    /* overflow-x: scroll; */
+
+}
+
+.scrolable_div>img
+{
+    display: inline-block;
+}
+
+.my-card
+{
+    width: 200px;
+    display: inline-block !important;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.time-div{
+    background-color: #f8f8f8;
+    width: fit-content;
+    font-weight: 700;
+
+    border-radius: 5px;
+    padding-inline: 5px;
+}
+.product-title{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-weight{
+    color: #6a6a6a;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.scrolable_div{
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+
+/* Footer row -1 */
+#footer-r1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+#footer-r1>#table-1{
+   flex: 2;
+}
+#footer-r1>#table-2{
+   flex: 3;
+}
+
+table{
+    width: 100%;
+}
+
+
+td{
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 2;
+}
+
+/* Footer Row -2 */
+
+#footer-r2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-r2>p
+{
+    width: 40%;
+    font-size: 15px;
+    text-align: justify;
+    color: #6a6a6a;
+    margin: 0px;
+}
+
+#downloads
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#downloads>p{
+    margin: 0px;
+    padding: 0px;
+    color: #6a6a6a;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#downloads>a>img{
+    margin: 10px;
+}
+
+
+/* Social Media links */
+#social-media
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons
+{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25;
+    margin-inline: 10px;
+    color: white;
+}
+
+
+
+/* Row 3 */
+
+#footer-r3
+{
+    font-size: 15px;
+    text-align: justify;
+    color: #6a6a6a;
+}
+
+
+@media screen and (max-width:768px) 
+{
+    nav
+    {       
+        flex-direction: column; 
+        padding: 10px;   
+      
+
+    }
+    #nav_delivery
+    {
+        align-items: center;
+    }
+    
+    #vertical_line
+    {
+        display: none;
+    }
+
+    #login-icon{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 40px;
+    }
+    #search_div
+    {
+        width: 90vw;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #search_div>input{
+        width: auto;
+    }
+
+    #hero-section{
+        display: none !important;
+    }
+
+    #login
+    {
+        display: none;
+    }
+    nav>button{
+        margin-top: 10px;
+    }
+    .card_section
+    {
+        margin-top: 30px !important;
+    }
+
+    #footer-r1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-r1>#table-1, #table-2
+    {
+        width: 100%;
+    }
+
+    td{
+        align-items: center;
+    }
+
+    #footer-r2
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-r2>p
+    {
+        width: 100%;
+    }
+
+    #social-media{
+        margin-bottom: 20px;
+    }
+
+    #downloads{
+        align-items: center;
+    }
+    
+
+}
+
+
