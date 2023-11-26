@@ -1,0 +1,13 @@
+  <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2022-06/morning-banner.jpg"
+                alt="pb_breakfast_time" width="335.40000000000003" height="195" loading="lazy"
+                style="border-radius: 16px; object-fit: fill; cursor: default;">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg"
+                alt="masthead_web_pharma" width="335.40000000000003" height="195" loading="lazy"
+                style="border-radius: 16px; object-fit: fill; cursor: default;">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/Pet-Care_WEB.jpg"
+                alt="masthead_web_pet_care" width="335.40000000000003" height="195" loading="lazy"
+                style="border-radius: 16px; object-fit: fill; cursor: default;">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-03/babycare-WEB.jpg"
+                alt="masthead_web_baby_care" width="335.40000000000003" height="195" loading="lazy"
+                style="border-radius: 16px; object-fit: fill; cursor: default;">
+    
